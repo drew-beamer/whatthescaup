@@ -1,0 +1,169 @@
+{
+    "scaups": [
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup1.jpg"
+        },
+        {
+            "photographer": "Curtis Mahon",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup2.jpg"
+        },
+        {
+            "photographer": "Drew Beamer",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup3.jpg"
+        },
+        {
+            "photographer": "Jim K.",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup4.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup5.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup6.jpg"
+        },
+        {
+            "photographer": "Bridget Spencer",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup7.jpg"
+        },
+        {
+            "photographer": "Bridget Spencer",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup8.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup9.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup10.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup11.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup11.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup13.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup14.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup15.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup16.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup17.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup18.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup19.jpg"
+        },
+        {
+            "photographer": "Mason Maron",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup20.jpg"
+        },
+        {
+            "photographer": "Ryan Andrews",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup21.jpg"
+        },
+        {
+            "photographer": "Jill Paquette",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup22.jpg"
+        },
+        {
+            "photographer": "Jill Paquette",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup23.jpg"
+        },
+        {
+            "photographer": "Jill Paquette",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup24.jpg"
+        },
+        {
+            "photographer": "Drew Beamer",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup25.jpg"
+        },
+        {
+            "photographer": "Drew Beamer",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup26.jpg"
+        },
+        {
+            "photographer": "Jenna Atma",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup27.jpg"
+        },
+        {
+            "photographer": "Jenna Atma",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup28.jpg"
+        },
+        {
+            "photographer": "Jenna Atma",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup29.jpg"
+        },
+        {
+            "photographer": "Jenna Atma",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup30.jpg"
+        },
+        {
+            "photographer": "Ian Hearn",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup31.jpg"
+        },
+        {
+            "photographer": "Ian Hearn",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup32.jpg"
+        },
+        {
+            "photographer": "Ian Hearn",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup33.jpg"
+        }
+    ]
+}
