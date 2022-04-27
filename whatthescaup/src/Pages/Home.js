@@ -1,15 +1,17 @@
-import { Alert, Box, Grid, Tooltip, Typography } from '@mui/material';
+import { Alert, Box, Grid, Tooltip, Typography, Button, AppBar, Toolbar } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 import { useEffect, useState } from 'react';
 import imagedata from '../imagedata.json';
+import Navbar from '../Components/Navbar';
+
+
 
 var data = imagedata.scaups;
 
 export default function Home(props) {
 
-    const [streak, setStreak] = useState(0);
-    const [best, setBest] = useState(0);
-    const [total, setTotal] = useState(0);
-    const [right, setRight] = useState(0);
+
+
 
     const [currentImage, setCurrentImage] = useState(0);
 
@@ -23,33 +25,64 @@ export default function Home(props) {
         setCurrentImage(newImage);
     }
 
+
+
     useEffect(() => {
         getNewScaup();
     }, [])
 
-    useEffect(() => {
-        if (best < streak) {
-            setBest(best + 1);
-        };
-    })
-
     const validate = (response) => {
-        if (response == data[currentImage].type) {
-            setAlertShow("success");
-            setStreak(streak + 1);
-            setRight(right + 1);
-            getNewScaup();
+        if (props.user !== null) {
+            if (response == data[currentImage].type) {
+                setAlertShow("success");
+                const newStreak = props.streak + 1;
+                let newBest = props.best;
+                if (newBest < newStreak) newBest++;
+                const newTotal = props.total + 1;
+                const newRight = props.right + 1
+                if (newBest < newStreak) newBest++;
+                props.updateUser(props.user.uid, props.user.displayName, newStreak, newRight, newTotal, newBest);
+                getNewScaup();
+            } else {
+                setAlertShow("wrong");
+                const newStreak = 0;
+                let newBest = props.best;
+                const newTotal = props.total + 1;
+                const newRight = props.right;
+                props.updateUser(props.user.uid, props.user.displayName, newStreak, newRight, newTotal, newBest);
+                getNewScaup();
+            }
+            props.getUser(props.user)
         } else {
-            setAlertShow("wrong");
-            setStreak(0);
-            getNewScaup();
+            if (response == data[currentImage].type) {
+                setAlertShow("success");
+                const newStreak = props.streak + 1;
+                let newBest = props.best;
+                if (newBest < newStreak) newBest++;
+                const newTotal = props.total + 1;
+                const newRight = props.right + 1
+                if (newBest < newStreak) newBest++;
+                props.updateAnon(newStreak, newRight, newTotal, newBest);
+                getNewScaup();
+            } else {
+                setAlertShow("wrong");
+                const newStreak = 0;
+                let newBest = props.best;
+                const newTotal = props.total + 1;
+                const newRight = props.right;
+                props.updateAnon(newStreak, newRight, newTotal, newBest);
+                getNewScaup();
+            }
         }
-        setTotal(total + 1)
+
     }
 
-    return <Box sx={{ py: 2, px: 2 }}>
-        <Typography variant="h4" sx={{ pb: 2 }}>whatthescaup.</Typography>
-        <Box alignItems="center" justifyContent="center" sx={{ display: "flex" }}>
+
+
+
+
+    return <Box>
+        <Box alignItems="center" justifyContent="center" sx={{ display: "flex", py: 2, px: 2 }}>
             <Grid container spacing={1.5} alignItems="center" justifyContent="center" sx={{ maxWidth: "750px" }}>
                 <Grid item xs={12}>
                     <Grid container spacing={1.5}>
@@ -62,7 +95,7 @@ export default function Home(props) {
                                         </Grid>
                                         <Grid item xs={10} sm={9} md={9} lg={10} sx={{ color: "white" }}>
                                             <Typography variant="h5" sx={{ lineHeight: "80%" }}>STREAK</Typography>
-                                            <Typography sx={{ fontSize: 24, }}>{streak}</Typography>
+                                            <Typography sx={{ fontSize: 24, }}>{props.streak}</Typography>
                                         </Grid>
                                     </Grid>
                                 </Box>
@@ -77,7 +110,7 @@ export default function Home(props) {
                                         </Grid>
                                         <Grid item xs={10} sm={9} md={9} sx={{ color: "white" }}>
                                             <Typography variant="h5" sx={{ lineHeight: "80%" }}>BEST</Typography>
-                                            <Typography sx={{ fontSize: 24 }}>{best}</Typography>
+                                            <Typography sx={{ fontSize: 24 }}>{props.best}</Typography>
                                         </Grid>
                                     </Grid>
                                 </Box>
@@ -92,7 +125,7 @@ export default function Home(props) {
                                         </Grid>
                                         <Grid item xs={10} sm={9} md={9} sx={{ color: "white" }}>
                                             <Typography variant="h5" sx={{ lineHeight: "80%" }}>ACCURACY</Typography>
-                                            <Typography sx={{ fontSize: 24, }}>{total === 0 ? "0.00%" : (100 * right / total).toPrecision(4) + "%"}</Typography>
+                                            <Typography sx={{ fontSize: 24, }}>{props.total === 0 ? "0.00%" : (100 * props.right / props.total).toPrecision(4) + "%"}</Typography>
                                         </Grid>
                                     </Grid>
                                 </Box>

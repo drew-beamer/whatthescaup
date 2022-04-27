@@ -4,9 +4,10 @@ import { createTheme } from "@mui/material/styles"
 
 export default function theme(mode) {
 
+    
     return createTheme({
         palette: {
-            mode: 'dark',
+            mode: mode,
             primary: {
                 main: "#01BAEF"
             },
@@ -14,8 +15,8 @@ export default function theme(mode) {
                 main: "#26C485"
             },
             background: {
-                default: "#272838",
-                box: "#494949"
+                default: mode === "dark" ? "#272838" : "#F5F5F5",
+                paper: mode === "dark" ? "#272838" : "#F5F5F5"
             }
         },
         typography: {
