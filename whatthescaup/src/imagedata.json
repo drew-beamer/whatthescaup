@@ -164,6 +164,31 @@
             "photographer": "Ian Hearn",
             "type": "Lesser Scaup",
             "filepath": "./scaupimages/scaup33.jpg"
+        },
+        {
+            "photographer": "Cedrik von Briel",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup34.jpg"
+        },
+        {
+            "photographer": "Cedrik von Briel",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup35.jpg"
+        },
+        {
+            "photographer": "Cedrik von Briel",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup36.jpg"
+        },
+        {
+            "photographer": "Cedrik von Briel",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup37.jpg"
+        },
+        {
+            "photographer": "Cedrik von Briel",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup38.jpg"
         }
     ]
 }
