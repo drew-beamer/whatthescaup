@@ -189,6 +189,46 @@
             "photographer": "Cedrik von Briel",
             "type": "Lesser Scaup",
             "filepath": "./scaupimages/scaup38.jpg"
+        },
+        {
+            "photographer": "Conor Farrell",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup39.jpg"
+        },
+        {
+            "photographer": "Conor Farrell",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup40.jpg"
+        },
+        {
+            "photographer": "Conor Farrell",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup41.jpg"
+        },
+        {
+            "photographer": "Conor Farrell",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup42.jpg"
+        },
+        {
+            "photographer": "Conor Farrell",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup43.jpg"
+        },
+        {
+            "photographer": "Conor Farrell",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup44.jpg"
+        },
+        {
+            "photographer": "Conor Farrell",
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup45.jpg"
+        },
+        {
+            "photographer": "Conor Farrell",
+            "type": "Greater Scaup",
+            "filepath": "./scaupimages/scaup46.jpg"
         }
     ]
 }
