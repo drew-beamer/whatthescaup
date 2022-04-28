@@ -193,42 +193,42 @@
         {
             "photographer": "Conor Farrell",
             "type": "Greater Scaup",
-            "filepath": "./scaupimages/scaup39.jpg"
+            "filepath": "./scaupimages/scaup39.jpeg"
         },
         {
             "photographer": "Conor Farrell",
             "type": "Greater Scaup",
-            "filepath": "./scaupimages/scaup40.jpg"
+            "filepath": "./scaupimages/scaup40.jpeg"
         },
         {
             "photographer": "Conor Farrell",
             "type": "Greater Scaup",
-            "filepath": "./scaupimages/scaup41.jpg"
+            "filepath": "./scaupimages/scaup41.jpeg"
         },
         {
             "photographer": "Conor Farrell",
             "type": "Greater Scaup",
-            "filepath": "./scaupimages/scaup42.jpg"
+            "filepath": "./scaupimages/scaup42.jpeg"
         },
         {
             "photographer": "Conor Farrell",
             "type": "Greater Scaup",
-            "filepath": "./scaupimages/scaup43.jpg"
+            "filepath": "./scaupimages/scaup43.jpeg"
         },
         {
             "photographer": "Conor Farrell",
             "type": "Greater Scaup",
-            "filepath": "./scaupimages/scaup44.jpg"
+            "filepath": "./scaupimages/scaup44.jpeg"
         },
         {
             "photographer": "Conor Farrell",
             "type": "Lesser Scaup",
-            "filepath": "./scaupimages/scaup45.jpg"
+            "filepath": "./scaupimages/scaup45.jpeg"
         },
         {
             "photographer": "Conor Farrell",
-            "type": "Greater Scaup",
-            "filepath": "./scaupimages/scaup46.jpg"
+            "type": "Lesser Scaup",
+            "filepath": "./scaupimages/scaup46.jpeg"
         }
     ]
 }

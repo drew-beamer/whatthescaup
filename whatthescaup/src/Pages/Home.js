@@ -90,10 +90,10 @@ export default function Home(props) {
                             <Box bgcolor="primary.main" sx={{ borderRadius: 5, boxShadow: 5 }}>
                                 <Box sx={{ borderRadius: 5, px: 2, py: 2, background: "linear-gradient(to bottom right, #ffffff50, #00000015)", width: "100%", height: "100%" }}>
                                     <Grid container spacing={2} alignItems="center">
-                                        <Grid item xs={2} sm={3} md={3} lg={2}>
+                                        <Grid item xs={2} sm={3} md={3}>
                                             <Typography variant="h4">🔥</Typography>
                                         </Grid>
-                                        <Grid item xs={10} sm={9} md={9} lg={10} sx={{ color: "white" }}>
+                                        <Grid item xs={10} sm={9} md={9} sx={{ color: "white" }}>
                                             <Typography variant="h5" sx={{ lineHeight: "80%" }}>STREAK</Typography>
                                             <Typography sx={{ fontSize: 24, }}>{props.streak}</Typography>
                                         </Grid>

@@ -1,6 +1,11 @@
 {
   "rules": {
-    ".read": false,
-    ".write": false
+      "users": {
+        	".write": true,
+          ".read": true,
+          ".indexOn": "scaup_best"
+      }
+    }
   }
-}
+
+

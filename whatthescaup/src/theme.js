@@ -15,8 +15,8 @@ export default function theme(mode) {
                 main: "#26C485"
             },
             background: {
-                default: mode === "dark" ? "#272838" : "#F5F5F5",
-                paper: mode === "dark" ? "#272838" : "#F5F5F5"
+                default: mode === "dark" ? "#272838" : "#E8E8E8",
+                paper: mode === "dark" ? "#272838" : "#E8E8E8"
             }
         },
         typography: {
@@ -31,6 +31,9 @@ export default function theme(mode) {
             h5: {
                 fontWeight: 600,
             }
+        },
+        zIndex: {
+            backdrop: 2000
         }
     })
 }

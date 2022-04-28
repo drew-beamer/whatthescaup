@@ -37,6 +37,10 @@ function App() {
   // honestly not super important for this application
   const [page, changePage] = useState('home');
   const [mode, setMode] = useState("dark");
+  const handleModeChange = () => {
+    mode === "dark" ? setMode("light") : setMode("dark");
+  }
+
   const [user, setUser] = useState(null);
   const [streak, setStreak] = useState(0);
   const [best, setBest] = useState(0);
@@ -136,7 +140,7 @@ function App() {
   return <ThemeProvider theme={theme(mode)}>
     <CssBaseline />
     <Box sx={{ flexGrow: 1 }}>
-      <Navbar login={login} logout={logout} user={user} />
+      <Navbar login={login} logout={logout} user={user} mode={mode} handleMode={handleModeChange}/>
     </Box>
     {content}
   </ThemeProvider>
